@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+</head>
+<body>
+
+ <p>User: Admin</p>
+ <p> <a href="/user_register/">Register User</a></p>
+<form method="POST">
+    <h2>User Detail:</h2>
+{% csrf_token %}
+<table width = '40%' border="1" style="text-align: center;">
+    <tr><th span='3'>name</th><th span='2'></th><th span='2'></th></tr>
+{% for user in users %}
+<tr>
+<td span='3'><p><a href='/get_user/{{user.id}}/'>{{user.name}}</a></p></td>
+<td span='2'><p><a href='/edit_user/{{user.id}}/'>edit</a></p></td>
+<td span='2'><p><a href='/delete_user/{{user.id}}/'>delete</a></p></td>
+</tr>
+{% endfor %}
+
+
+</table>
+</form>
+</body>
+</html>

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+  
+    <form action="/update_project/{{project.id}}/{{instance}}/" method="POST">
+        {% csrf_token %}
+        <p><label for="project">project name: </label>
+            <input id="name" type="text" name="name" value="{{project.name}}"></p>
+        <p>  <input type="submit" value="Update"></p>
+    </form>
+   
+
+</body>
+</html>

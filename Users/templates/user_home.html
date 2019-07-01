@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+<ul>
+        <p>User: {{user.name}}</p>
+
+        <p><p> <a href="/add_projects/">Create Project</a></p>
+
+        <h2>Project Details:</h2>
+        <table width = '40%' border="1" style="text-align: center;">
+        {% for db in list_proj %}
+        <tr>
+        <td><p>{{db.1}}:-{{db.0}}</p></td>
+        <td><p> <a href="/edit_project/{{db.2}}/{{db.1}}/">Edit</a></p></td>
+        <td><p><a href="/delete_project/{{db.2}}/{{db.1}}/">Delete</a></p></td>
+         </tr>       
+       
+        {% endfor %}
+        </table>
+</ul>

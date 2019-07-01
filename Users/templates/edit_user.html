@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+  
+    <form  method="POST">
+        {% csrf_token %}
+        <p><label for="project">user name: </label>
+            <input id="name" type="text" name="name" value="{{users_name}}"></p>
+
+            <tr>
+                <th><label for="id_db_choices_0">Db choices:</label></th>
+                <td>
+                   <ul id="id_db_choices">
+                     {%for db in databases %}
+                      <li><label for="id_db_choices_{{db.2}}"><input id="id_db_choices_{{db.2}}"  name="db_choices" type="checkbox" value="{{db.0}}" {% if db.1 %} checked {% endif %} /> {{db.0}}</label></li>
+                     {% endfor %}
+                    </ul>
+                </td>
+             </tr>
+        
+        <p>  <input type="submit" value="Update"></p>
+
+
+    </form>
+   
+
+</body>
+</html>
