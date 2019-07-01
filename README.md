@@ -28,5 +28,13 @@ Any complicated UI is not needed, just a well documented code for Python followi
 Implementation: 
 
 I. Admin: Admin need to configure directly in the database. No UI is provided for Admin registration.
+II. User: UI is provided to create user and assigne database e.g. database1, database2, database3 etc.
 
-UserLogin:  Need to enter  
+UserLogin:  Need to enter email id and password store in the database if is_admin flag is true user will be redirected to admin_home.html. else user will be redirected to user_home.html.
+
+Admin Dashboard: Admin can see all the users created in the admin dashboard and by clicking on their name admin will be redirected to view/edit project assigned to that user.
+as well as admin can delete/ edit user on admin dashboard. admin can edit name and database assigned to that user. edit email functionality is not provided.
+
+
+
+
