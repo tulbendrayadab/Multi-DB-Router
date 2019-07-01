@@ -1,13 +1,13 @@
-Dummy Task: Multi DB Router
+# Dummy Task: Multi DB Router
 
-Requirements:
+# Requirements:
 1) Databases: PostgreSQL DB and My SQL DB.
 2) Django 1.10 with Python.
 3) Multi setting for local and production environments.
 4) Proper Readme file with setup instruction.
 
 
-Problem Statement: 
+# Problem Statement: 
 - Project has 2 roles Admin and User
 - PostgreSQL has 2 database: database1, database2
 - My SQL has 3 database: database3, database4, database5
@@ -25,7 +25,7 @@ Any complicated UI is not needed, just a well documented code for Python followi
 
 
 
-Implementation: 
+## Implementation: 
 
 Admin: Admin needs to configure directly in the database. No UI is provided for Admin registration.
 User: UI is provided to create a user and assigned database e.g. database1, database2, database3 etc.
