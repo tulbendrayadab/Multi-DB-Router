@@ -49,4 +49,17 @@ Admin needs to enter the user name, email and select databases from the checkbox
 User can create the new project by clicking create project and user will be redirected to add_projects where he needs to enter the project name and select databases from checkbox he wants to create.
 User will see all the projects created by him on User dashboard page where he can edit the project name and delete the project.
 
+See below images for reference
+https://drive.google.com/file/d/1V_gzjt-0m4C_4sxflDeprRCiu3AjaXJY/view?usp=sharing
 
+https://drive.google.com/file/d/19lJJ6WleaS2ajVN33PX3NAdwbwi1vJXA/view?usp=sharing
+
+https://drive.google.com/file/d/1x_FqWzOJT7joRcQW0KJOJ9EhCyJN3PtH/view?usp=sharing
+
+https://drive.google.com/file/d/1e72ir2usif0CFniSBlkNI4pzmpoSxrCS/view?usp=sharing
+
+https://drive.google.com/file/d/1PuwJz2iPYcFHTcAGy2A1aOVLHynN-i01/view?usp=sharing
+
+https://drive.google.com/file/d/1R-Ia_IEcj5Y9_YAzlkAbdfK191-1pqXj/view?usp=sharing
+
+https://drive.google.com/file/d/1-rmtuknQRHVuAfrBC2Xl9jqw2FjDkMzj/view?usp=sharing
